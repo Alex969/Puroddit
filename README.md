@@ -1,1 +1,1 @@
-mikro-orm : to connect/speak with the database
+*~Work in progress, building a Puroland version of Reddit~*
