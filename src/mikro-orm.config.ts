@@ -12,8 +12,9 @@ export default {
   dbName: "Puroddit",
   type: "postgresql",
   debug: !__prod__,
+  /*Parameters returns an array 
+  so we just select the first parameter*/
 } as Parameters<typeof MikroORM.init>[0]; 
-/*Parameters returns an array 
-so we just select the first parameter*/
+
 
 
