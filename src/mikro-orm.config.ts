@@ -10,6 +10,7 @@ export default {
   },
   entities: [Post],
   dbName: "Puroddit",
+  user: "Stewbibou",
   type: "postgresql",
   debug: !__prod__,
   /*Parameters returns an array 
