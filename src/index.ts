@@ -5,6 +5,7 @@ import microConfig from "./mikro-orm.config";
 
 const main = async () => {
   const orm = await MikroORM.init(microConfig); //init returns a promise 
+  await orm.getMigrator().up(); //runs migrations
   const post = orm.em.create(Post, {title: 'my first post 1'});
   await orm.em.persistAndFlush(post);
   console.log("----------sql 2----------");
