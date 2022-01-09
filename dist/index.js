@@ -22,8 +22,8 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
     app.get('/', (_, res) => {
         res.send("hello");
     });
-    app.listen(3000, () => {
-        console.log("server started on localhost:3000");
+    app.listen(4000, () => {
+        console.log("server started on localhost:4000");
     });
 });
 main().catch((err) => {
